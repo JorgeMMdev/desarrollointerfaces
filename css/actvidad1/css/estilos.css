@@ -1,0 +1,41 @@
+/*
+Actividad 1: Mi primera página con estilos
+Objetivo: conocer las reglas CSS y los selectores de etiquetas.
+Contenidos: color, background-color, font-family, font-size, text-align.
+Tareas:
+1. Cambia el fondo de la página a un gris muy claro.
+2. Muestra el título principal en azul oscuro, centrado y con un tamaño de 36 px.
+3. Asigna un color diferente al subtítulo.
+4. Haz que los párrafos tengan un tamaño de 18 px y una altura de línea de 1,6.
+5. Utiliza una tipografía sans-serif para toda la página.
+ */ 
+
+/*1*/
+
+body{
+
+    background-color: lightgray;
+
+    /*5*/
+    font-family: sans-serif;
+}
+
+/* 2 */
+
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+}
+
+/*3*/
+h2 {
+    color:blueviolet
+}
+
+/* 4*/ 
+p {
+    font-size: 18px;
+    line-height: 1.6px;
+}
+

@@ -1,0 +1,49 @@
+/*
+ Actividad 2: Selectores, clases e identificadores
+Objetivo: aprender a seleccionar elementos concretos.
+Tareas:
+1. Aplica un fondo azul oscuro al elemento #cabecera y texto blanco.
+2. Da a todas las noticias un borde de 1 px y un fondo blanco.
+3. Utiliza un selector de clase para destacar .importante.
+4. Añade un margen inferior de 20 px a cada noticia.
+5. Cambia el color de los títulos de las noticias sin modificar el título principal.
+Ampliación: utiliza un selector descendiente para que los párrafos de las noticias tengan
+un color distinto del resto de los párrafos.
+*/
+
+/* 1 */ 
+
+#cabecera {
+
+    background-color: darkblue;
+    color: white;
+}
+
+/* 2 */ 
+
+.noticia {
+    
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+/* 3 */
+
+.importante {
+
+    background-color: yellow;
+}
+
+/* 4 */
+.noticia h2 {
+
+    color: aqua;    
+}
+
+/* ampliacion */
+.noticia p {
+  color: #29e80b;
+}
+

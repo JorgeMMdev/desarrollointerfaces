@@ -1,0 +1,29 @@
+/* 
+Actividad 3: Márgenes, rellenos y bordes
+Objetivo: comprender el modelo de caja (box model).
+Tareas:
+1. Establece un ancho de 300 px para cada tarjeta.
+2. Añade 20 px de padding y 15 px de margen inferior.
+3. Aplica un borde sólido de 2 px y esquinas redondeadas.
+4. Centra las tarjetas horizontalmente.
+5. Añade box-sizing: border-box a todos los elementos mediante el selector universal.
+Ampliación: crea una clase .destacada que añada una sombra y un borde de otro color.
+*/
+
+/* 1, 2, 3, 4 */ 
+
+.tarjeta {  
+
+    
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+/* 5. box-sizing para todos los elementos */
+* {
+    box-sizing: border-box;
+}
