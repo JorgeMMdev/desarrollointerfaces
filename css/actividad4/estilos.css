@@ -1,0 +1,49 @@
+/* Actividad 4. Tipografía y legibilidad
+Objetivo: controlar la presentación del texto.
+Tareas:
+1. Limita el ancho del artículo a 750 px y céntralo.
+2. Define una tipografía, tamaño y color para el texto.
+3. Diferencia visualmente el título, los subtítulos y la firma del autor.
+4. Utiliza line-height, font-weight, text-transform y letter-spacing.
+5. Asegúrate de que los párrafos sean cómodos de leer. 
+*/
+
+.articulo {
+
+    max-width: 750px;
+    margin: 0 auto;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: blueviolet;
+    letter-spacing: 2px;
+}
+
+.articulo h1 {
+
+    background-color: chartreuse;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+.articulo h2 {
+
+    background-color: lightgrey;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+.articulo .autor {
+
+    background-color: green;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 700;
+}
