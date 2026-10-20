@@ -13,8 +13,7 @@ Ampliación: crea una clase .destacada que añada una sombra y un borde de otro 
 /* 1, 2, 3, 4 */ 
 
 .tarjeta {  
-
-    
+    display: inline-block;
     width: 300px;
     padding: 20px;
     margin-bottom: 15px;

@@ -1,0 +1,14 @@
+/* Actividad 6. Listas y menús sencillos
+Objetivo: personalizar listas y crear una primera navegación horizontal.
+Tareas:
+1. Elimina las viñetas y el margen y relleno predeterminados de la lista.
+2. Muestra los elementos del menú en horizontal.
+3. Cambia el color de fondo del menú.
+4. Da estilo a los enlaces eliminando el subrayado.
+5. Añade separación entre los elementos y un efecto visual al pasar el ratón.
+*/
+
+li {
+
+    list-style: none;
+}
