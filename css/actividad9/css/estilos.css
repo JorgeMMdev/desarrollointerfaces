@@ -1,0 +1,42 @@
+/* Actividad 9. Posicionamiento de elementos
+Objetivo: comprender position: relative, absolute, fixed y sticky.
+Tareas:
+1. Sitúa la etiqueta «Novedad» en la esquina superior derecha del producto.
+2. Utiliza posicionamiento relativo en el contenedor y absoluto en la etiqueta.
+3. Haz que la cabecera permanezca visible al desplazarse por la página.
+4. Experimenta con z-index para controlar qué elemento queda delante.
+Compara el resultado de utilizar fixed y sticky. */
+
+.producto {
+    position: relative;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+span {
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(206, 61, 90);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}
+
+header {
+
+    position: sticky;
+    top: 0;
+    background-color: #237738;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cabecera {
+
+    z-index: 20;
+}
