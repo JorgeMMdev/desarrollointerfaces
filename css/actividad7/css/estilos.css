@@ -1,0 +1,56 @@
+/*Actividad 7. Pseudoclases y estados de los enlaces
+Objetivo: aplicar estilos según la interacción o el estado de los elementos.
+Contenidos: :hover, :focus, :active, :visited, transition.
+Tareas:
+1. Define los estados normal, visitado, activo y hover de los enlaces.
+2. Haz que el botón cambie de color al pasar el ratón.
+3. Añade un efecto de transición de 0,3 segundos.
+4. Diseña un estado :focus-visible reconocible al navegar con el teclado.
+5. Evita eliminar los indicadores de foco sin proporcionar una alternativa visible
+*/
+
+
+/* 1.*/
+.recursos a:link{
+    color: blue(75, 219, 39);
+    text-decoration: none;
+    
+}
+
+.recursos a:visited {
+    color: rgb(0, 128, 53);
+}
+
+.recursos a:hover {
+    color: orange;
+    text-decoration: underline;
+    
+}
+
+.recursos a:active {
+    color: red;
+}
+
+/*2, 3*/
+.boton {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.boton:hover {
+    background-color: orange;
+    transition: background-color 1.5s;
+}
+/* 4, 5 */
+.recursos a:focus-visible, .boton:focus-visible {
+    outline: 3px solid #b69907;
+    outline-offset: 3px;
+}
+
+.recursos li 
+{
+    list-style:none;
+}       
